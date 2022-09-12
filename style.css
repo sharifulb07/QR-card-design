@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+   
+   
+}
+/* For Desktop Design here  */
+/* 
+@media only screen {
+    .body{
+        margin-top: 75px;
+        width: 1440px;
+        height: 600px;
+        margin-left: 50px;
+        background-color: hsl(220, 15%, 55%);
+        display: flex;
+        align-items: center;
+        text-align: center;
+        
+
+    }
+
+    .card{
+        width: 250px;
+        height: 400px;
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 20px;
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-left: 600px;
+
+
+    }
+
+    img{
+        width: 220px;
+        height: 220px;
+        margin: 15px;
+        border-radius: 10px;
+    }
+
+
+    h1{
+        font-size: 18px;
+        padding: 1px;
+        margin-bottom: 15px;
+        text-align: center;
+        color: hsl(hue, saturation, lightness);
+    }
+
+p{
+    margin: 5px;
+   text-align: center;
+   color:hsl(220, 15%, 55%);
+   font-size: 15px;
+}
+    
+} */
+
+
+/* mobile design only */
+@media(max-width:375px) {
+    .body{
+        margin-top: 75px;
+        width: 375px;
+        height: 600px;
+       z-index: -1;
+        background-color: hsl(220, 15%, 55%);
+        display: flex;
+        align-items: center;
+        margin-left: 600px;
+        
+
+    }
+
+    .card{
+        width: 250px;
+        height: 400px;
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 20px;
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-left: 60px;
+       
+
+
+    }
+
+    img{
+        width: 220px;
+        height: 220px;
+        margin: 15px;
+        border-radius: 10px;
+    }
+
+
+    h1{
+        font-size: 18px;
+        padding: 1px;
+        margin-bottom: 15px;
+        text-align: center;
+        color: hsl(hue, saturation, lightness);
+    }
+
+p{
+    margin: 5px;
+   text-align: center;
+   color:hsl(220, 15%, 55%);
+   font-size: 15px;
+}
+    
+}
+
+
